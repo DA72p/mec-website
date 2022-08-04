@@ -1,0 +1,130 @@
+/* Essential Definitions */
+
+:root {
+    --scarlet: #e81e1e;
+}
+
+* {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+/* override user agent stylesheets */
+body {
+    margin: 0;
+}
+
+/*the header*/
+nav {
+    /* position: relative; */
+    background-color: var(--scarlet);
+    width: 100vw;
+    /* height: 90px; */
+    padding: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.header-left {
+    /* position: absolute; */
+    width: 20vw;
+    margin-left: 2vw;
+}
+
+.header-right-div {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    color: white;
+    /* position: absolute; */
+    width: 70vw;
+    /* height: 50px; */
+    align-items: center;
+    right: 5vw;
+    display: flex;
+    font-weight: bold;
+}
+
+.header-right-div a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-right-div a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/* navigation-specific underline */
+#mission-link {
+    text-decoration: underline;
+}
+
+/* content */
+#our-mission {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    width: 100vw;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: block;
+}
+
+.header-right {
+    overflow: hidden;
+    padding: 8px;
+}
+
+#mission-heading {
+    font-size: 2em;
+    width: 60vw;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.mec-mission {
+    width: 60vw;
+    margin: auto;
+    font-size: 1em;
+    padding: 15px;
+    line-height: 25px;
+}
+
+/*footer */
+#bottom-info {
+    display: flex;
+    /* height: 175px; */
+    background-color: var(--scarlet);
+    width: 100vw;
+    padding: 15px 0 0 0;
+}
+
+#entrepreneurship-club-footer-info {
+    display: block;
+    width: 40vw;
+    padding: 0 15px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+#final-link {
+    display: flex;
+    width: 30vw;
+    margin-left: 15vw;
+    align-items: flex-end;
+}
+
+#final-bottom-image {
+    display: flex;
+    width: 30vw;
+    align-items: flex-end;
+}

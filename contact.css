@@ -1,0 +1,160 @@
+/* Essential Definitions */
+
+:root {
+    --scarlet: #e81e1e;
+}
+
+* {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+/* override user agent stylesheets */
+body, p {
+    margin: 0;
+}
+
+/*the header*/
+nav {
+    /* position: relative; */
+    background-color: var(--scarlet);
+    width: 100vw;
+    /* height: 90px; */
+    padding: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.header-left {
+    /* position: absolute; */
+    width: 20vw;
+    margin-left: 2vw;
+}
+
+.header-right-div {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    color: white;
+    /* position: absolute; */
+    width: 70vw;
+    /* height: 50px; */
+    align-items: center;
+    right: 5vw;
+    display: flex;
+    font-weight: bold;
+}
+
+.header-right {
+    overflow: hidden;
+    padding: 8px;
+}
+
+.header-right-div a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-right-div a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/* navigation-specific underline */
+#contact-link {
+    text-decoration: underline;
+}
+
+/* contact */
+#content {
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 5px 0;
+    display: block;
+}
+
+#exec-board-text {
+    padding: 5px 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+#contact-us-text {
+    padding: 5px 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#exec-board-people {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.exec-board-member {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border: 3px solid white;
+}
+
+.exec-board-member p {
+    text-align: center;
+}
+
+.exec-member-picture {
+    display: block;
+    padding: 0 0 5px 0;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.exec-member-role {
+    font-size: 1.5em;
+}
+
+.exec-member-name {
+    font-size: 1.75em;
+}
+
+.exec-member-email {
+    font-size: 1.25em;
+}
+
+
+/*footer */
+#bottom-info {
+    display: flex;
+    /* height: 175px; */
+    background-color: var(--scarlet);
+    width: 100vw;
+    padding: 15px 0 0 0;
+}
+
+#entrepreneurship-club-footer-info {
+    display: block;
+    width: 40vw;
+    padding: 0 15px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+#final-link {
+    display: flex;
+    width: 30vw;
+    margin-left: 15vw;
+    align-items: flex-end;
+}
+
+#final-bottom-image {
+    display: flex;
+    width: 30vw;
+    align-items: flex-end;
+}

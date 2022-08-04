@@ -1,0 +1,199 @@
+/* Essential Definitions */
+
+:root {
+    --scarlet: #e81e1e;
+}
+
+* {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+/* override user agent stylesheets */
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/*the header*/
+nav {
+    /* position: relative; */
+    background-color: var(--scarlet);
+    width: 100vw;
+    /* height: 90px; */
+    padding: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.header-left {
+    /* position: absolute; */
+    width: 20vw;
+    margin-left: 2vw;
+}
+
+.header-right-div {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    color: white;
+    /* position: absolute; */
+    width: 70vw;
+    /* height: 50px; */
+    align-items: center;
+    right: 5vw;
+    display: flex;
+    font-weight: bold;
+}
+
+.header-right {
+    overflow: hidden;
+    padding: 8px;
+}
+
+.header-right-div a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-right-div a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/* navigation-specific underline */
+#startup-fair-link {
+    text-decoration: underline;
+}
+
+/* content */
+.content {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+#about-startup-fair {
+    display: flex;
+    padding: 20px;
+}
+
+#startup-fair-image {
+    margin-left: 10vw;
+    left: 10vw;
+    width: 300px;
+    height: 280px;
+    border-radius: 10%;
+}
+
+#startup-fair-logistics {
+    width: 55vw;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+
+#startup-fair-logistics p {
+    padding: 5px;
+}
+
+#startup-fair-tag {
+    font-size: 2.5em;
+    padding: 0 0 20px 0;
+}
+
+#startup-fair-title {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#startup-fair-date-and-time {
+    font-size: 1.5em;
+}
+
+#startup-fair-description {
+    text-align: left;
+}
+
+#startup-sponsor-button {
+    display: grid;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    width: 15vw;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    word-wrap: break-word;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+#startup-sponsor-link {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+#startup-sponsor-button:hover {
+    cursor: pointer;
+    color: white;
+    border: 3px solid white;
+    background-color: black;
+}
+
+#startup-fair-description {
+    justify-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*footer */
+#bottom-info {
+    display: flex;
+    /* height: 175px; */
+    background-color: var(--scarlet);
+    width: 100vw;
+    padding: 15px 0 0 0;
+}
+
+#entrepreneurship-club-footer-info {
+    display: block;
+    width: 40vw;
+    padding: 0 15px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+#final-link {
+    display: flex;
+    width: 30vw;
+    margin-left: 15vw;
+    align-items: flex-end;
+}
+
+#final-bottom-image {
+    display: flex;
+    width: 30vw;
+    align-items: flex-end;
+}

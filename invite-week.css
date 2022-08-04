@@ -1,0 +1,180 @@
+/* Essential Definitions */
+
+:root {
+    --scarlet: #e81e1e;
+}
+
+* {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+/* override user agent stylesheets */
+body {
+    margin: 0;
+}
+
+/*the header*/
+nav {
+    /* position: relative; */
+    background-color: var(--scarlet);
+    width: 100vw;
+    /* height: 90px; */
+    padding: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.header-left {
+    /* position: absolute; */
+    width: 20vw;
+    margin-left: 2vw;
+}
+
+.header-right {
+    overflow: hidden;
+    padding: 8px;
+}
+
+.header-right-div {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    color: white;
+    /* position: absolute; */
+    width: 70vw;
+    /* height: 50px; */
+    align-items: center;
+    right: 5vw;
+    display: flex;
+    font-weight: bold;
+}
+
+.header-right-div a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-right-div a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/* navigation-specific underline */
+#invite-week-link {
+    text-decoration: underline;
+}
+
+/* content */
+#invite-week-upper-text {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    color: white;
+    padding: 20px 0 10px;
+}
+
+.mec-invite-form-upper {
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+
+.mec-invite-form-description {
+    text-align: center;
+}
+
+#background-of-big-form {
+    background-color:rgba(0, 0, 0, 0.9);
+    width: 100vw;
+}
+
+#big-form {
+    /* padding: 10px; */
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    width: 100vw;
+    margin: 0;
+}
+
+#name-text {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#name-div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.name-div {
+    display: grid;
+    row-gap: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+#first-name, #last-name, #email {
+    height: 50px;
+    font-size: 1.25em;
+    padding: 5px;
+}
+
+label {
+    text-align: center;
+}
+
+#email-div {
+    padding: 20px 0;
+    display: grid;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+button {
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+/*footer */
+#bottom-info {
+    display: flex;
+    /* height: 175px; */
+    background-color: var(--scarlet);
+    width: 100vw;
+    padding: 15px 0 0 0;
+}
+
+#entrepreneurship-club-footer-info {
+    display: block;
+    width: 40vw;
+    padding: 0 15px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+#final-link {
+    display: flex;
+    width: 30vw;
+    margin-left: 15vw;
+    align-items: flex-end;
+}
+
+#final-bottom-image {
+    display: flex;
+    width: 30vw;
+    align-items: flex-end;
+}

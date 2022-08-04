@@ -1,0 +1,216 @@
+/* Essential Definitions */
+
+:root {
+    --scarlet: #e81e1e;
+}
+
+* {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+/* override user agent stylesheets */
+body, p {
+    margin: 0;
+}
+
+/*the header*/
+nav {
+    /* position: relative; */
+    background-color: var(--scarlet);
+    width: 100vw;
+    /* height: 90px; */
+    padding: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.header-right {
+    overflow: hidden;
+    padding: 8px;
+}
+
+.header-left {
+    /* position: absolute; */
+    width: 20vw;
+    margin-left: 2vw;
+}
+
+.header-right-div {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    color: white;
+    /* position: absolute; */
+    width: 70vw;
+    /* height: 50px; */
+    align-items: center;
+    right: 5vw;
+    display: flex;
+    font-weight: bold;
+}
+
+.header-right-div a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-right-div a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/* navigation-specific underline */
+#events-link {
+    text-decoration: underline;
+}
+
+/* for content */
+.content {
+    width: 100vw;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
+
+#events-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#three-buttons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.events-button {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+.events-button:hover {
+    cursor: pointer;
+    color: white;
+    border: 3px solid white;
+    background-color: black;
+    text-decoration: none;
+}
+
+#no-events-yet {
+    padding: 5px 5px 20px 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.warning-text {
+    justify-content: center;
+    text-align: center;
+}
+
+/* for events */
+
+.events {
+    width: 100vw;
+    display: block;
+    padding: 20px 0 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.proposed-event {
+    width: 60vw;
+    margin: auto;
+    display: block;
+    background-color:rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    color: white;
+
+}
+
+.event-content {
+    display: flex;
+    padding: 15px;
+    left: 15vw;
+    width: 55vw;
+    margin: 0;
+}
+
+.event-image {
+    width: 96px;
+    height: 125px;
+    padding: 5px;
+    border: 2px solid white;
+    object-fit: fill;
+}
+
+.event-image:hover {
+    cursor: pointer;
+}
+
+.event-details {
+    padding: 15px;
+    display: grid;
+    left: 150px;
+    align-items: start;
+}
+
+.event-title {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.event-title:hover {
+    cursor: pointer;
+}
+
+.event-description {
+    padding: 10px 0;
+}
+
+/*footer */
+#bottom-info {
+    display: flex;
+    /* height: 175px; */
+    background-color: var(--scarlet);
+    width: 100vw;
+    padding: 15px 0 0 0;
+}
+
+#entrepreneurship-club-footer-info {
+    display: block;
+    width: 40vw;
+    padding: 0 15px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+#final-link {
+    display: flex;
+    width: 30vw;
+    margin-left: 15vw;
+    align-items: flex-end;
+}
+
+#final-bottom-image {
+    display: flex;
+    width: 30vw;
+    align-items: flex-end;
+}

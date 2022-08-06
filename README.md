@@ -1,3 +1,4 @@
 # mec-website
 
-Download the whole repo. Then, open any of the 10 .html files in your browser and you will be able to access the whole website.
+Download the repo (preferably the color-experimentation one, which is more updated and compact). Then, open up any one of the
+10 html files and the website will display.

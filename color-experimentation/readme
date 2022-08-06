@@ -1,0 +1,5 @@
+To switch the colors of the website, go to "essential_definitions.css" within this folder (mec-website/color-experimentation)
+and play around with the --accent, --primary-text, and --primary-background colors.
+There are several colors pre-defined at the top of the :root ruleset.
+
+You can also change the image background color, which is displayed right under the navbar at the homepage. Opacity should be ~0.5 for the image to show.

@@ -1,6 +1,6 @@
 # mec-website
 
-Download the whole repo. Then, open any one of the 10 .html files and click around to access the whole website.
+Download the whole repo. Then, go to one of the two folders, open any one of the 10 .html files inside, and there's the website.
 
 The "archive" folder is the old, first-iteration website.
 

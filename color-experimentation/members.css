@@ -1,0 +1,43 @@
+@import "essential_definitions.css";
+
+/* navigation-specific underline */
+#members-link {
+    text-decoration: underline;
+}
+
+/* content */
+.content {
+    padding: 15px 0;
+    width: 100vw;
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.mec-description {
+    font-size: 2em;
+    text-align: center;
+}
+
+#huge-number {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.member {
+    margin-left: 15px;
+    padding: 5px;
+    border: 3px solid var(--primary-text);
+    max-width: 300px;
+}
+
+.member-image {
+    width: 200px;
+}
+
+.member-name {
+    font-size: 1.5em;
+}

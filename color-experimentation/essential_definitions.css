@@ -1,0 +1,133 @@
+/* Essential Definitions */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --scarlet: #e81e1e;
+    --purplish: #7312c7;
+    --astro-ship-purple: #3a0e62;
+    --diluted-white: #f3f5e9;
+    --diluted-black: #161710;
+    --smurf-blue: #185d92;
+    --brainy-blue: #09395d;
+    --smurf-grass: #6be873;
+    --gargamel-peach: #edcdbf;
+    --laboratory-red: #f7d7d0;
+    --beach-blue: #82d4f4;
+    --back-red: 49;
+    --back-green: 59;
+    --back-blue: 100;
+    --image-background-color: rgba(var(--back-red), var(--back-green), var(--back-blue), 0.8);
+
+    /* The accent is the color that gives MEC the 'sparkle'. In our previous
+    website, it was scarlet. */
+    --accent: var(--brainy-blue);
+
+    /* Primary text is what most of the text will use and is contrasted with
+    the primary background. In our previous website, it was white. */
+    --primary-text: var(--gargamel-peach);
+
+    /* Primary background is what most of our background will have as a color,
+    and should contrast supremely with the primary text. In our previous website,
+    it was black. */
+    --primary-background: var(--smurf-blue);
+}
+
+* {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* override common user agent stylesheets */
+body {
+    margin: 0;
+}
+
+/* body * {
+    overflow: hidden;
+} */
+
+a {
+    color: var(--primary-text);
+}
+
+/*the header*/
+nav {
+    /* position: relative; */
+    background-color: var(--accent);
+    width: 100vw;
+    /* height: 90px; */
+    padding: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.header-left {
+    /* position: absolute; */
+    width: 20vw;
+    margin-left: 2vw;
+}
+
+.header-right-div {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    color: var(--primary-text);
+    /* position: absolute; */
+    width: 70vw;
+    /* height: 50px; */
+    align-items: center;
+    right: 5vw;
+    display: flex;
+    font-weight: bold;
+}
+
+.header-right {
+    overflow: hidden;
+    padding: 8px;
+}
+
+.header-right-div a:link {
+    color: var(--primary-text);
+    text-decoration: none;
+}
+
+.header-right-div a:visited{
+    color: var(--primary-text);
+    text-decoration: none;
+}
+
+/*footer */
+#bottom-info {
+    display: flex;
+    /* height: 175px; */
+    background-color: var(--accent);
+    width: 100vw;
+    padding: 15px 0 0 0;
+}
+
+#entrepreneurship-club-footer-info {
+    display: block;
+    width: 40vw;
+    padding: 0 15px;
+    color: var(--primary-text);
+    justify-content: center;
+    justify-items: center;
+}
+
+#final-link {
+    display: flex;
+    width: 30vw;
+    margin-left: 15vw;
+    align-items: flex-end;
+}
+
+#final-bottom-image {
+    display: flex;
+    width: 30vw;
+    align-items: flex-end;
+}

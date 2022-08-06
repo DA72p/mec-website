@@ -1,0 +1,38 @@
+@import "essential_definitions.css";
+
+/* navigation-specific underline */
+#mission-link {
+    text-decoration: underline;
+}
+
+/* content */
+#our-mission {
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+    width: 100vw;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: block;
+}
+
+.header-right {
+    overflow: hidden;
+    padding: 8px;
+}
+
+#mission-heading {
+    font-size: 2em;
+    width: 60vw;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.mec-mission {
+    width: 60vw;
+    margin: auto;
+    font-size: 1em;
+    padding: 15px;
+    line-height: 25px;
+}

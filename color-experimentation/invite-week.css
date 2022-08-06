@@ -1,0 +1,83 @@
+@import "essential_definitions.css";
+
+/* navigation-specific underline */
+#invite-week-link {
+    text-decoration: underline;
+}
+
+/* content */
+#invite-week-upper-text {
+    background-color: var(--primary-background);
+    width: 100vw;
+    color: var(--primary-text);
+    padding: 20px 0 10px;
+}
+
+.mec-invite-form-upper {
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+
+.mec-invite-form-description {
+    text-align: center;
+}
+
+#background-of-big-form {
+    background-color:var(--primary-background);
+    width: 100vw;
+}
+
+#big-form {
+    /* padding: 10px; */
+    color: var(--primary-text);
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    width: 100vw;
+    margin: 0;
+}
+
+#name-text {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#name-div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.name-div {
+    display: grid;
+    row-gap: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+#first-name, #last-name, #email {
+    height: 50px;
+    font-size: 1.25em;
+    padding: 5px;
+}
+
+label {
+    text-align: center;
+}
+
+#email-div {
+    padding: 20px 0;
+    display: grid;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+button {
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}

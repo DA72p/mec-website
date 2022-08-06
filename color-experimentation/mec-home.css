@@ -1,0 +1,135 @@
+@import "essential_definitions.css";
+
+body * {
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+/* body {
+    overflow-x: hidden;
+} */
+
+/* heading and view events */
+.greeting {
+    width: 100vw;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    font-weight: bold;
+    /* this is the only non-variable-controlled color in the whole set */
+    background-color: var(--image-background-color);
+    color: var(--primary-text);
+    position: relative;
+    display: block;
+}
+
+/* .greeting * {
+    background-color: rgba(255, 255, 255, 0.2);
+} */
+
+#mit-background {
+    width: 100vw;
+    height: 450px;
+    position: absolute;
+    top: 85px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#mit-mec-title {
+    position: relative;
+    text-transform: uppercase;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 3em;
+}
+
+#welcome {
+    position: relative;
+    font-size: 2em;
+}
+
+/* hr {
+    position: relative;
+    margin-top: 30px;
+} */
+
+#description {
+    position: relative;
+    width: 50vw;
+    margin: 10px auto 10px;
+    font-size: 1.5em;
+}
+
+#events-button {
+    position: relative;
+    background-color: var(--primary-text);
+    border: 3px solid var(--primary-background);
+    color: var(--primary-background);
+    font-size: 1.4em;
+    width: 15vw;
+    height: 20px;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#events-button:hover {
+    cursor: pointer;
+    background-color: var(--accent);
+    border: 3px solid var(--primary-text);
+    color: var(--primary-text);
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#events-button-text {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* club purposes */
+.purposes {
+    padding: 15px 0 15px 0;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+}
+
+.purposes-tagline {
+    font-family: Verdana, Impact;
+}
+
+.purpose-grid {
+    justify-items: center;
+    align-items: center;
+    max-width: 40vw;
+    margin: 0 auto 0;
+    text-align: center;
+    display: grid;
+}
+
+/* partners */
+#partners-section {
+    width: 100vw;
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+    display: block;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    padding-bottom: 40px;
+}
+
+#partners-text {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}

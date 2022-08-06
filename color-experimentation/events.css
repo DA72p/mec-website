@@ -1,0 +1,124 @@
+@import "essential_definitions.css";
+
+/* override user agent stylesheets */
+body, p {
+    margin: 0;
+}
+
+/* navigation-specific underline */
+#events-link {
+    text-decoration: underline;
+}
+
+/* for content */
+.content {
+    width: 100vw;
+    margin: 0;
+    background-color: var(--primary-background);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    color: var(--primary-text);
+    padding: 15px 0;
+}
+
+#events-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#three-buttons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.events-button {
+    background-color: var(--primary-text);
+    border: 3px solid var(--primary-background);
+    color: var(--primary-background);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+.events-button:hover {
+    cursor: pointer;
+    color: var(--primary-text);
+    border: 3px solid var(--primary-text);
+    background-color: var(--primary-background);
+    text-decoration: none;
+}
+
+#no-events-yet {
+    padding: 5px 5px 20px 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.warning-text {
+    justify-content: center;
+    text-align: center;
+}
+
+/* for events */
+
+.events {
+    width: 100vw;
+    display: block;
+    padding: 20px 0 50px;
+    background-color: var(--primary-background);
+}
+
+.proposed-event {
+    width: 60vw;
+    margin: auto;
+    display: block;
+    background-color:var(--primary-background);
+    justify-content: center;
+    color: var(--primary-text);
+
+}
+
+.event-content {
+    display: flex;
+    padding: 15px;
+    left: 15vw;
+    width: 55vw;
+    margin: 0;
+}
+
+.event-image {
+    width: 96px;
+    height: 125px;
+    padding: 5px;
+    border: 2px solid var(--primary-text);
+    object-fit: fill;
+}
+
+.event-image:hover {
+    cursor: pointer;
+}
+
+.event-details {
+    padding: 15px;
+    display: grid;
+    left: 150px;
+    align-items: start;
+}
+
+.event-title {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.event-title:hover {
+    cursor: pointer;
+}
+
+.event-description {
+    padding: 10px 0;
+}

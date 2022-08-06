@@ -1,0 +1,68 @@
+@import "essential_definitions.css";
+
+/* override user agent stylesheets */
+body, p {
+    margin: 0;
+}
+
+/* navigation-specific underline */
+#contact-link {
+    text-decoration: underline;
+}
+
+/* contact */
+#content {
+    width: 100vw;
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+    padding: 5px 0;
+    display: block;
+}
+
+#exec-board-text {
+    padding: 5px 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+#contact-us-text {
+    padding: 5px 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#exec-board-people {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.exec-board-member {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border: 3px solid var(--primary-text);
+}
+
+.exec-board-member p {
+    text-align: center;
+}
+
+.exec-member-picture {
+    display: block;
+    padding: 0 0 5px 0;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.exec-member-role {
+    font-size: 1.5em;
+}
+
+.exec-member-name {
+    font-size: 1.75em;
+}
+
+.exec-member-email {
+    font-size: 1.25em;
+}
+
